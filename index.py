@@ -12,6 +12,7 @@ print(f"la resta de {numero} y {numeros1} es {resta}")
 print(f"la multiplicacion de {numero} y {numeros1} es {mult}")
 print(f"la division de {numero} y {numeros1} es {divi}")
 print(f"el residuo de {numero} y {numeros1} es {residuo}")
+print(f"la potencia de {numero} y {numeros1} es {potencia}")
 
 
 
