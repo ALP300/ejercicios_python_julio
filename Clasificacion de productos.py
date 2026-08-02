@@ -34,9 +34,9 @@ precio_total = precio + monto_impuesto
 # Prints
 print("--- RESUMEN DEL PRODUCTO ---")
 print(f"Producto: {nombre.capitalize()}")
-print(f"Categoría: {categoria.capitalize()}")
+print(f"Categoría: {categoria.capitalize()}")  # .capitalize() indica que la primera letra sea en mayuscula
 print(f"Clasificación: {clasificacion}")
-print(f"Precio Base: ${precio:.2f}")
+print(f"Precio Base: ${precio:.2f}")  # 2f indica que el numero se muestre con 2 decimales en float
 print(f"Impuesto Aplicado ({porcentaje_impuesto * 100:.0f}%): ${monto_impuesto:.2f}")
 print(f"Precio Total Final: ${precio_total:.2f}")
 
