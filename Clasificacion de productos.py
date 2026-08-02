@@ -6,7 +6,7 @@ etc.
 # Datos a pedir con input
 nombre = input("Ingrese el nombre del producto:")
 precio = float(input("Ingrese el precio del producto:"))
-categoria = input("Ingrese la categoría del producto (Tecnología, Alimentos o Ropa):").lower().strip()
+categoria = input("Ingrese la categoría del producto (Tecnología, Alimentos o Ropa):").lower().strip() # .lower() y .strip() sirve para que el usuario pueda escribir en mayusculas, minusculas o con espacios
 
 # Determinar la clasificacion
 if precio > 1000:
@@ -36,7 +36,7 @@ print("--- RESUMEN DEL PRODUCTO ---")
 print(f"Producto: {nombre.capitalize()}")
 print(f"Categoría: {categoria.capitalize()}")  # .capitalize() indica que la primera letra sea en mayuscula
 print(f"Clasificación: {clasificacion}")
-print(f"Precio Base: ${precio:.2f}")  # 2f indica que el numero se muestre con 2 decimales en float
+print(f"Precio Base: ${precio:.2f}")  # .2f indica que el numero se muestre con 2 decimales en float
 print(f"Impuesto Aplicado ({porcentaje_impuesto * 100:.0f}%): ${monto_impuesto:.2f}")
 print(f"Precio Total Final: ${precio_total:.2f}")
 
